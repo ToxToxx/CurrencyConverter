@@ -15,7 +15,7 @@
             <RowDefinition Height = "150">  </RowDefinition>
         </Grid.RowDefinitions>
         
-        <Border Grid.Row="2" Width="800" CornerRadius="10" BorderThickness="5">
+        <Border Grid.Row="2" Width="800" CornerRadius="5" BorderThickness="15">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
                     <GradientStop Color="#d52ad0" Offset="0.0" />
@@ -26,11 +26,14 @@
                 <Rectangle.Fill>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
                         <GradientStop Color="#d52ad0" Offset="0.0" />
-                        <GradientStop Color="#d52a7b" Offset="0.50" />
+                        <GradientStop Color="#d52a7b" Offset="0.70" />
                     </LinearGradientBrush>
                 </Rectangle.Fill>
             </Rectangle>
         </Border>
-        
+
+        <StackPanel>
+            <Label Content="Привет"> </Label>
+        </StackPanel>
     </Grid>
 </Window>
