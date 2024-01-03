@@ -32,8 +32,9 @@
             </Rectangle>
         </Border>
 
-        <StackPanel>
-            <Label Content="Привет"> </Label>
+        <StackPanel Grid.Row="0" Width="1000" Height="50" Orientation="Horizontal">
+            <Label Content="Переводчик валют" Width="1000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   FontSize="25" Foreground="#d52ad0"></Label> 
         </StackPanel>
     </Grid>
 </Window>
