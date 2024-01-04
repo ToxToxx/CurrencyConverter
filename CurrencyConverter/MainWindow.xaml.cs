@@ -28,10 +28,15 @@ namespace CurrencyConverter
 
         private void Convert_Click(object sender, RoutedEventArgs e)
         {
-            
+            lblCurrency.Content = "Конвертирую";
         }
 
         private void Clear_Click(object sender, RoutedEventArgs e)
+        {
+            lblCurrency.Content = "Чищу";
+        }
+
+        private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
         {
 
         }
