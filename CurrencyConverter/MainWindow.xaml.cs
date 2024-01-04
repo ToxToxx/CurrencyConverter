@@ -33,7 +33,7 @@ namespace CurrencyConverter
 
         private void Clear_Click(object sender, RoutedEventArgs e)
         {
-            lblCurrency.Content = "Чищу";
+            lblCurrency.Content = "Очистил";
         }
 
         private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
